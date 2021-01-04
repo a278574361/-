@@ -1,0 +1,330 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("../images/bkg.png");
+  background-size:cover;
+	background-attachment: fixed;
+	width: 100%;
+	height: 100%;
+	position: fixed;
+}
+
+div.k{
+  box-shadow: 0 0 3px #237ad4 inset;
+  background: 
+  linear-gradient(#00CDE6, #00CDE6) left top,
+  linear-gradient(#00CDE6, #00CDE6) left top,
+  linear-gradient(#00CDE6, #00CDE6) right top,
+  linear-gradient(#00CDE6, #00CDE6) right top,
+  linear-gradient(#00CDE6, #00CDE6) left bottom,
+  linear-gradient(#00CDE6, #00CDE6) left bottom,
+  linear-gradient(#00CDE6, #00CDE6) right bottom,
+  linear-gradient(#00CDE6, #00CDE6) right bottom;
+  background-repeat: no-repeat;
+  background-size: 3px 10px, 10px 3px;
+
+}
+
+.time-change{
+  box-sizing: border-box;
+  text-align:center;
+  font-size:1.2em;
+  height:100%;
+  border-radius:4px;
+  border:1px solid #c8cbcf;
+  color:#F8F8FF;
+  -moz-appearance: none;
+  display:block;
+  outline:0;
+  padding:0 1em;
+  text-decoration:none;
+  width:90%;
+  background-color: #042040;
+  margin-left:5%;
+}
+.table-one{
+  background-color: #042040;
+  color:#FFFFFF;
+  vertical-align:middle;
+  text-align:center;
+}
+.table-two{
+  background-color: #043040;
+  color:#FFFFFF;
+  vertical-align:middle;
+  text-align:center;
+}
+
+#Statistics{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 0.5vh;
+  left: 0.5vw;
+  width: 23vw;  
+  height: 40vh;  
+  color: white;
+}
+  
+#BigEvent{
+  text-align:center;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 41.5vh;
+  left: 0.5vw;  
+  width: 23vw;  
+  height: 56.5vh;  
+  color: white;
+  font-weight:bold;
+}
+#News_next{
+  float:left;
+  width:30%;
+  text-align: left;
+}
+span{
+  float:left;
+  width:40%;
+  margin-top:3px;
+}
+#News_previous{
+  float:left;
+  width:30%;
+  text-align: right;
+}
+#EventTitle{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-weight:bold;
+  color:#008acd;
+  padding: 10px 0 10px 0;
+}
+
+table{
+  text-align:left
+}
+
+.title{
+  box-shadow: 0 0 0.5vw #03e6e9;
+  margin: 3px;
+  background: #042040;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.title:before {
+      content: '';
+      position: absolute;
+      left: 10%;
+      top: -2px;
+      bottom: auto;
+      right: auto;
+      height: 4px;
+      width: 80%;
+      background-color: #00CDE6;
+  }
+
+  .title:after {
+    content: '';
+    position: absolute;
+    left: 25%;
+    top: auto;
+    bottom: -2px;
+    right: auto;
+    height: 4px;
+    width: 50%;
+    background-color: #00CDE6;
+}
+
+#Title{
+  text-align:center;
+  font: 30pt "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 0.5vh;
+  left: 29vw;  
+  width: 42vw;  
+  height: 7vh;  
+  color: white;
+  line-height: 7vh; 
+  }
+
+#Map{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 9.5vh;
+  left: 24vw;  
+  width: 52vw;   
+  height: 62.5vh;  
+  color: "#008acd";
+  background-image:url("../images/map.png");
+  background-size:cover;
+  }
+
+#Economy{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 73vh;
+  left: 24vw;  
+  width: 52vw;   
+  height: 25vh;  
+  color: white;
+
+  }
+
+#Time{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 0.5vh;
+  left: 76.5vw;  
+  width: 22.5vw;  
+  height: 4vh;  
+ }
+
+#Goods{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 5vh;
+  left: 76.5vw;  
+  width: 22.5vw;  
+  height: 34vh;  
+  color: white;
+
+  }
+
+#RadarMap{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 40vh;
+  left: 76.5vw;  
+  width: 22.5vw;  
+  height: 32vh;  
+  color: white;
+
+}
+
+#WordCloud{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 73vh;
+  left: 76.5vw;   
+  width: 22.5vw;   
+  height: 25vh;  
+  color: white;
+}
+
+#Count{
+    font: 36px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: yellow;
+    opacity:1; 
+}
+
+#StatProv{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 1vh;
+  left: 0.5vw;
+  width: 23vw;  
+  height: 35vh;  
+  color: white;
+}
+  
+#Scope{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 37vh;
+  left: 1vw;  
+  width: 23vw;  
+  height: 35vh;  
+  color: white;
+}
+
+#OverView{
+  text-align:center;
+  font: 40px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 1vh;
+  left: 25vw;  
+  width: 50vw;  
+  height: 71vh;  
+  color: white;
+  }
+
+#Analyse{
+  text-align:center;
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+  position: absolute;
+  top: 73vh;
+  left: 1vw;  
+  width: 74vw;   
+  height: 25vh;  
+  color: white;
+  }
+
+  #Trend{
+    text-align:center;
+    font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+    position: absolute;
+    top: 7vh;
+    left: 76vw;  
+    width: 22vw;  
+    height: 32vh;  
+    color: white;
+  
+    }
+  
+
+    #Price{
+      text-align:center;
+      font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+      position: absolute;
+      top: 40vh;
+      left: 76vw;  
+      width: 22vw;  
+      height: 32vh;  
+      color: white;
+    
+    }
+
+    #CPI{
+      text-align:center;
+      font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+      position: absolute;
+      top: 73vh;
+      left: 76vw;   
+      width: 22vw;   
+      height: 25vh;  
+      color: white;
+    }
+
+    /* 隐藏地图bmap左下角logo */
+    .anchorBL{
+    display:none;
+    }
+
+
+/** 表头样式**/
+table.dataTable {
+  width:100%;
+}
+table.dataTable table.dataTable td {
+  padding: 0px 0px;
+}
+table.dataTable thead{
+
+}
+/** 表尾样式**/
+table.dataTable tfoot table.dataTable tfoot td {
+  padding: 10px 18px 12px 18px;
+}
+
+/** 鼠标悬停数据行样式 **/
+table.dataTable tbody tr:hover {
+  background-color: #008acd;
+}
